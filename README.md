@@ -1,5 +1,20 @@
 # my-portfolio
-ポートフォリオサイト
+SPAポートフォリオサイト
+
+### 使用フレームワーク
+- React.js  
+
+### 使用ライブラリ
+- gh-pages  
+
+### 項目  
+- About  
+- Skills  
+- Portfolios  
+
+### 機能  
+- 言語設定  
+
 
 ### デプロイ手順
 - 変更内容をプッシュする  
@@ -9,3 +24,8 @@
 
 - ビルド&デプロイ  
 `npm run deploy`
+
+### 項目  
+- About
+- Skills
+- Portfolios

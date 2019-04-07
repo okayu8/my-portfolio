@@ -2,6 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://okayu8.github.io/my-portfolio/",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

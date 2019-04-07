@@ -24,8 +24,3 @@ SPAポートフォリオサイト
 
 - ビルド&デプロイ  
 `npm run deploy`
-
-### 項目  
-- About
-- Skills
-- Portfolios

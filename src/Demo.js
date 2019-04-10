@@ -27,6 +27,7 @@ export default class Demo extends React.Component {
                             <button className="demo0-block" style={{
                                 WebkitTransform: `translate3d(${x}px, 0, 0)`,
                                 transform: `translate3d(${x}px, 0, 0)`,
+                                border: 0,
                             }} >Works</button>
                         </div>
                     }
@@ -39,6 +40,7 @@ export default class Demo extends React.Component {
                             <button className="demo0-block" style={{
                                 WebkitTransform: `translate3d(${x}px, 0, 0)`,
                                 transform: `translate3d(${x}px, 0, 0)`,
+                                border: 0,
                             }} >About</button>
                         </div>
                     }

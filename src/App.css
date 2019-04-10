@@ -10,7 +10,7 @@
 
 .App-header {
   /* background-color: #282c34; */
-  background: linear-gradient(45deg, rgba(142, 255, 217, 0.7), rgba(66, 179, 255, 0.7));
+  background: linear-gradient(45deg, rgba(142, 255, 217, 0.7), rgb(66, 179, 255));
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,6 +23,18 @@
 .App-link {
   color: #61dafb;
 }
+
+  .demo0-block {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 50px;
+    border-radius: 100px;
+    background: linear-gradient(45deg, rgb(9, 255, 0), rgba(0, 153, 255, 0.925));
+    color: white;
+    font-size: 15px;
+    outline: 0;
+  }
 
 @keyframes App-logo-spin {
   from {

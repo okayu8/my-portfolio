@@ -1,6 +1,8 @@
 # my-portfolio
 SPAポートフォリオサイト
 
+URL: https://okayu8.github.io/my-portfolio/
+
 ### 使用フレームワーク
 - React.js  
 

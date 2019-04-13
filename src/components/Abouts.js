@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Motion, spring } from 'react-motion';
 
-export default class Skills extends Component {
+export default class Abouts extends Component {
     render() {
         return (
             <div>
                 <h2>
-                    Skills
+                    Abouts
                 </h2>
             </div>
         )

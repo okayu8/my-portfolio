@@ -12,21 +12,6 @@ class App extends Component {
           <h1>
             Yutaro Kataoka's<br />PORTFOLIO
           </h1>
-          {/* <StaggeredMotion
-            defaultStyles={[{ h: 0 }, { h: 0 }, { h: 0 }]}
-            styles={prevInterpolatedStyles => prevInterpolatedStyles.map((_, i) => {
-              return i === 0
-                ? { h: spring(100) }
-                : { h: spring(prevInterpolatedStyles[i - 1].h) }
-            })}>
-            {interpolatingStyles =>
-              <div>
-                {interpolatingStyles.map((style, i) =>
-                  <div key={i} style={{ border: '1px solid', height: style.h }} />)
-                }
-              </div>
-            }
-          </StaggeredMotion> */}
         </header>
       </div>
     );

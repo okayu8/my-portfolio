@@ -2,19 +2,7 @@ import React from 'react';
 import { Motion, spring } from 'react-motion';
 
 export default class Demo extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = { open: false };
-    };
 
-    handleMouseDown = () => {
-        this.setState({ open: !this.state.open });
-    };
-
-    handleTouchStart = (e) => {
-        e.preventDefault();
-        this.handleMouseDown();
-    };
 
     render() {
         return (

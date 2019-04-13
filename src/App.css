@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  background-image: url("./https___www.pakutaso.com_shared_img_thumb_KAZTP1050194.jpg");
-  background-size:contain;
+  background-image: url("./images/DSC01303.jpg");
+  background-size: cover;
 }
 
 .App-logo {
@@ -35,7 +35,6 @@
     background: linear-gradient(180deg, #a95dff, rgba(0, 153, 255, 0.925));
     color: white;
     font-size: 15px;
-    font-family: Impact,Charcoal; 
     outline: 0;
   }
 

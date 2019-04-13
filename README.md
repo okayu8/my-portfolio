@@ -10,7 +10,6 @@ URL: https://okayu8.github.io/my-portfolio/
 - gh-pages  
 - react-motion
 
-
 ### 項目  
 - About  
 - Skills  

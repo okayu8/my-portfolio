@@ -1,5 +1,5 @@
 {
-  "main.css": "/my-portfolio/static/css/main.b5513239.chunk.css",
+  "main.css": "/my-portfolio/static/css/main.9168e12e.chunk.css",
   "main.js": "/my-portfolio/static/js/main.c6600989.chunk.js",
   "main.js.map": "/my-portfolio/static/js/main.c6600989.chunk.js.map",
   "runtime~main.js": "/my-portfolio/static/js/runtime~main.674e5ed7.js",
@@ -7,8 +7,8 @@
   "static/js/2.8e9ac869.chunk.js": "/my-portfolio/static/js/2.8e9ac869.chunk.js",
   "static/js/2.8e9ac869.chunk.js.map": "/my-portfolio/static/js/2.8e9ac869.chunk.js.map",
   "index.html": "/my-portfolio/index.html",
-  "precache-manifest.678eacbb0114e8dc1081e686e155bc5b.js": "/my-portfolio/precache-manifest.678eacbb0114e8dc1081e686e155bc5b.js",
+  "precache-manifest.46da3bcdb9bf8b3adb3a300370fa9d7d.js": "/my-portfolio/precache-manifest.46da3bcdb9bf8b3adb3a300370fa9d7d.js",
   "service-worker.js": "/my-portfolio/service-worker.js",
-  "static/css/main.b5513239.chunk.css.map": "/my-portfolio/static/css/main.b5513239.chunk.css.map",
-  "static/media/App.css": "/my-portfolio/static/media/https___www.pakutaso.com_shared_img_thumb_KAZTP1050194.ccf7eb9c.jpg"
+  "static/css/main.9168e12e.chunk.css.map": "/my-portfolio/static/css/main.9168e12e.chunk.css.map",
+  "static/media/App.css": "/my-portfolio/static/media/DSC01303.91e4d5c1.jpg"
 }

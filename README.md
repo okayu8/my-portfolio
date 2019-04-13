@@ -8,11 +8,13 @@ URL: https://okayu8.github.io/my-portfolio/
 
 ### 使用ライブラリ
 - gh-pages  
+- react-motion
+
 
 ### 項目  
 - About  
 - Skills  
-- Portfolios  
+- works
 
 ### 機能  
 - 言語設定  

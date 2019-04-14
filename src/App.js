@@ -7,7 +7,7 @@ import Abouts from './components/Abouts'
 import Skills from './components/Skills'
 import Works from './components/Works'
 
-class App extends Component {
+export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = { open: false };
@@ -94,4 +94,3 @@ class App extends Component {
   }
 }
 
-export default App;

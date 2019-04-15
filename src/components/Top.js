@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Motion, spring } from 'react-motion';
 
-export default class Home extends Component {
+export default class Top extends Component {
     render() {
         return (
             <div>

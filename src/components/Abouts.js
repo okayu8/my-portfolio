@@ -16,6 +16,11 @@ export default class Abouts extends Component {
                                 Abouts
                             </h2>
                         </div>
+                        <div className="content">
+                            <p>
+                                北海道出身のWebプログラマーです。
+                            </p>
+                        </div>
                     </div>
                 }
             </Motion>

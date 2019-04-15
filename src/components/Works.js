@@ -4,7 +4,7 @@ import { Motion, spring } from 'react-motion';
 export default class Works extends Component {
     render() {
         return (
-            <Motion defaultStyle={{ x: 1000 }} style={{ x: spring(0, { stiffness: 100, damping: 17 }) }}>
+            <Motion defaultStyle={{ x: 1000 }} style={{ x: spring(0, { stiffness: 80, damping: 17 }) }}>
                 {({ x }) =>
                     <div className="panel" style={{
                         WebkitTransform: `translate3d(${x}px, 0, 0)`,

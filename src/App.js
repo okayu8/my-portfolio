@@ -16,8 +16,8 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <BrowserRouter>
+        <BrowserRouter>
+          <header className="App-header">
             <Link to='/my-portfolio/'>
               <Motion defaultStyle={{ x: -240 }} style={{ x: spring(window.innerWidth / 3 - 240, { stiffness: 140, damping: 100 }) }}>
                 {({ x }) =>
@@ -81,14 +81,15 @@ export default class App extends Component {
                 }
               </Motion>
             </Link>
+          </header>
 
-            <Route exact path='/my-portfolio' component={Home} />
-            <Route path='/my-portfolio/abouts' component={Abouts} />
-            <Route path='/my-portfolio/skills' component={Skills} />
-            <Route path='/my-portfolio/works' component={Works} />
+          <Route exact path='/my-portfolio' component={Home} />
+          <Route path='/my-portfolio/abouts' component={Abouts} />
+          <Route path='/my-portfolio/skills' component={Skills} />
+          <Route path='/my-portfolio/works' component={Works} />
 
-          </BrowserRouter>
-        </header>
+        </BrowserRouter>
+
       </div>
     );
   }

@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import { Motion, spring } from 'react-motion';
 
 export default class Abouts extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            // lang: "jp",
+        };
+    };
+
     render() {
         return (
             <Motion defaultStyle={{ x: -1000 }} style={{ x: spring(0, { stiffness: 80, damping: 17 }) }}>
@@ -18,7 +25,7 @@ export default class Abouts extends Component {
                         </div>
                         <div className="content">
                             <p>
-                                北海道出身のWebプログラマーです。
+                                {this.props.lang === "jp" ? jp.text1 : en.text1}
                             </p>
                         </div>
                     </div>
@@ -26,4 +33,12 @@ export default class Abouts extends Component {
             </Motion>
         )
     }
+}
+
+const jp = {
+    text1: "北海道出身のWebエンジニアです。",
+}
+
+const en = {
+    text1: "I am a web engineer from Hokkaido, Japan.",
 }

@@ -32,23 +32,31 @@ export default class App extends Component {
                                 {lang}
                             </a>
                         </div>
-                        <div className="nav-bar">
-                            <Link to='/my-portfolio/' className="nav-link">
-                                TOP
-                        </Link>
+                        <nav className="nav-bar">
+                            <ul>
+                                <li>
+                                    <Link to='/my-portfolio/' className="nav-link">
+                                        TOP
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to='/my-portfolio/abouts' className="nav-link">
+                                        ABOUTS
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to='/my-portfolio/skills' className="nav-link">
+                                        SKILLS
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to='/my-portfolio/works' className="nav-link">
+                                        WORKS
+                                    </Link>
+                                </li>
+                            </ul>
 
-                            <Link to='/my-portfolio/abouts' className="nav-link">
-                                ABOUTS
-                        </Link>
-
-                            <Link to='/my-portfolio/skills' className="nav-link">
-                                SKILLS
-                        </Link>
-
-                            <Link to='/my-portfolio/works' className="nav-link">
-                                WORKS
-                        </Link>
-                        </div>
+                        </nav>
                     </header>
 
                     <Route exact path='/my-portfolio' component={Top} />

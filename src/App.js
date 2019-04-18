@@ -21,94 +21,34 @@ export default class App extends Component {
     };
 
     render() {
-        const jpStyle = this.state.lang === "jp" ? { color: "#a70000" } : { color: "#ffffff" }
-        const enStyle = this.state.lang === "en" ? { color: "#a70000" } : { color: "#ffffff" }
+        const lang = this.state.lang === "jp" ? "JP" : "EN"
 
         return (
             <div className="App">
                 <BrowserRouter>
                     <header className="App-header">
-                        <Link to='/my-portfolio/'>
-                            <Motion defaultStyle={{ x: -240 }} style={{ x: spring(window.innerWidth / 4 - 240, { stiffness: 140, damping: 100 }) }}>
-                                {({ x }) =>
-                                    // children is a callback which should accept the current value of
-                                    // `style`
-                                    <div className="demo0">
-                                        <button className="demo0-block" style={{
-                                            WebkitTransform: `translate3d(${x}px, 0, 0)`,
-                                            transform: `translate3d(${x}px, 0, 0)`,
-                                            border: 0,
-                                        }} >Top</button>
-                                    </div>
-                                }
-                            </Motion>
+                        <div className="change-language">
+                            <a onClick={() => this.changeLanguage()} >
+                                {lang}
+                            </a>
+                        </div>
+                        <div className="nav-bar">
+                            <Link to='/my-portfolio/' className="nav-link">
+                                TOP
                         </Link>
 
-                        <Link to='/my-portfolio/abouts'>
-                            <Motion defaultStyle={{ x: -160 }} style={{ x: spring(window.innerWidth / 4 - 160, { stiffness: 160, damping: 90 }) }}>
-                                {({ x }) =>
-                                    // children is a callback which should accept the current value of
-                                    // `style`
-                                    <div className="demo0">
-                                        <button className="demo0-block" style={{
-                                            WebkitTransform: `translate3d(${x}px, 0, 0)`,
-                                            transform: `translate3d(${x}px, 0, 0)`,
-                                            border: 0,
-                                        }} >About</button>
-                                    </div>
-                                }
-                            </Motion>
+                            <Link to='/my-portfolio/abouts' className="nav-link">
+                                ABOUTS
                         </Link>
 
-                        <Link to='/my-portfolio/skills'>
-                            <Motion defaultStyle={{ x: -80 }} style={{ x: spring(window.innerWidth / 4 - 80, { stiffness: 180, damping: 80 }) }}>
-                                {({ x }) =>
-                                    // children is a callback which should accept the current value of
-                                    // `style`
-                                    <div className="demo0">
-                                        <button className="demo0-block" style={{
-                                            WebkitTransform: `translate3d(${x}px, 0, 0)`,
-                                            transform: `translate3d(${x}px, 0, 0)`,
-                                            border: 0,
-                                        }} >Skills</button>
-                                    </div>
-                                }
-                            </Motion>
+                            <Link to='/my-portfolio/skills' className="nav-link">
+                                SKILLS
                         </Link>
 
-                        <Link to='/my-portfolio/works'>
-                            <Motion defaultStyle={{ x: 0 }} style={{ x: spring(window.innerWidth / 4, { stiffness: 200, damping: 70 }) }}>
-                                {({ x }) =>
-                                    // children is a callback which should accept the current value of
-                                    // `style`
-                                    <div className="demo0">
-                                        <button className="demo0-block" style={{
-                                            WebkitTransform: `translate3d(${x}px, 0, 0)`,
-                                            transform: `translate3d(${x}px, 0, 0)`,
-                                            border: 0,
-                                        }} >Works</button>
-                                    </div>
-                                }
-                            </Motion>
+                            <Link to='/my-portfolio/works' className="nav-link">
+                                WORKS
                         </Link>
-                        <Motion defaultStyle={{ x: 0 }} style={{ x: spring(window.innerWidth / 4 + 80, { stiffness: 220, damping: 70 }) }}>
-                            {({ x }) =>
-                                // children is a callback which should accept the current value of
-                                // `style`
-                                <div className="demo0">
-                                    <button
-                                        className="demo0-block" onClick={() => this.changeLanguage()} style={{
-                                            WebkitTransform: `translate3d(${x}px, 0, 0)`,
-                                            transform: `translate3d(${x}px, 0, 0)`,
-                                            border: 0,
-                                        }} >
-                                        <span style={jpStyle}>JP</span>
-                                        /
-                                        <span style={enStyle}>EN</span>
-                                    </button>
-                                </div>
-                            }
-                        </Motion>
+                        </div>
                     </header>
 
                     <Route exact path='/my-portfolio' component={Top} />

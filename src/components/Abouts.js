@@ -27,6 +27,21 @@ export default class Abouts extends Component {
                             <p>
                                 {this.props.lang === "jp" ? jp.text1 : en.text1}
                             </p>
+                            <p>
+                                {this.props.lang === "jp" ? jp.text2 : en.text2}
+                            </p>
+                            <p>
+                                {this.props.lang === "jp" ? jp.text3 : en.text3}
+                            </p>
+                            <p>
+                                {this.props.lang === "jp" ? jp.text4 : en.text4}
+                            </p>
+                            <p>
+                                {this.props.lang === "jp" ? jp.text5 : en.text5}
+                            </p>
+                            <p>
+                                {this.props.lang === "jp" ? jp.text6 : en.text6}
+                            </p>
                         </div>
                     </div>
                 }
@@ -37,8 +52,18 @@ export default class Abouts extends Component {
 
 const jp = {
     text1: "北海道出身のWebエンジニアです。",
+    text2: "PHP(Laravel, Phalcon)やASP.net Coreでのバックエンド開発を中心に、React.jsでのSPA開発やブロックチェーン(トークン)の開発などを行なっております。",
+    text3: "趣味でGo, Python, Rubyなどの言語を勉強しています。",
+    text4: "「開発効率はチームメンバーのモチベーション次第」と考えており、メンバーと気持ちよくコミュニケーションを取る事が大事だと考えます。",
+    text5: "できるだけ見やすく、理解のしやすいコードを書く事を心がけています。",
+    text6: "好きなエディターはVisualStudioCode, Vimです。",
 }
 
 const en = {
     text1: "I am a web engineer from Hokkaido, Japan.",
+    text2: "I focus on backend development with PHP (Laravel, Phalcon) and ASP.net Core, and also do SPA development in React.js and development of blockchain (token).",
+    text3: "My hobbies are studying languages such as Go and Python.",
+    text4: "I believe that \"development efficiency depends on the motivation of team members\" and I believe it is important to communicate with members comfortably.",
+    text5: "I also try to write code that is as easy to read and understand as possible.",
+    text6: "My favorite editor is VisualStudioCode, Vim.",
 }

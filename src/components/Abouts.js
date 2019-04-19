@@ -5,7 +5,7 @@ export default class Abouts extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            // lang: "jp",
+            lang: "jp",
         };
     };
 

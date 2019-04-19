@@ -3,6 +3,9 @@ import { Motion, spring } from 'react-motion';
 import githubImage from '../images/icons8-github-32.png'
 
 export default class Top extends Component {
+    handleToGithub = () => {
+        window.open('https://github.com/okayu8')
+    }
     render() {
         return (
             <div>
@@ -19,7 +22,7 @@ export default class Top extends Component {
                                 WebkitTransform: `translate3d(${x}px, 0, 0)`,
                                 transform: `translate3d(${x}px, 0, 0)`,
                                 border: 0,
-                            }} ><img style={{ width: 25, height: 25 }} src={githubImage} /></button>
+                            }} onClick={this.handleToGithub()}><img style={{ width: 25, height: 25 }} src={githubImage} /></button>
                         </div>
                     }
                 </Motion>

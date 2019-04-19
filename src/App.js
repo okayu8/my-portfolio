@@ -27,7 +27,8 @@ export default class App extends Component {
     }
 
     render() {
-        const lang = this.state.lang === "jp" ? "JP" : "EN"
+        const jpStyle = this.state.lang === "jp" ? { color: "rgb(255, 115, 0)" } : { color: "rgba(255, 255, 255, 0.5)" }
+        const enStyle = this.state.lang === "en" ? { color: "rgb(255, 115, 0)" } : { color: "rgba(255, 255, 255, 0.5)" }
 
         return (
             <div className="App">
@@ -35,7 +36,8 @@ export default class App extends Component {
                     <header className="App-header">
                         <div className="change-language">
                             <a onClick={() => this.changeLanguage()} >
-                                {lang}
+                                <span style={jpStyle}>JP </span>
+                                <span style={enStyle}>EN</span>
                             </a>
                         </div>
                         <Burger className="nav-mobile" isOpen={this.state.open} onClick={() => { this.pushMenu() }} />

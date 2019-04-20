@@ -20,7 +20,7 @@ export default class Abouts extends Component {
                     }}>
                         <div className="panel-title">
                             <h2 style={{ opacity: 1 }}>
-                                Abouts
+                                <a className="sub-title">Abouts</a>
                             </h2>
                         </div>
                         <div className="content">
@@ -54,7 +54,7 @@ const jp = {
     text1: "北海道出身のWebエンジニアです。",
     text2: "PHP(Laravel, Phalcon)やC#(ASP.net Core)でのバックエンド開発を中心に、React.jsでのフロントエンド開発やブロックチェーン(トークン)の開発なども行なっております。",
     text3: "趣味でGo, Pythonなどの言語を勉強しています。",
-    text4: "「開発効率はチームメンバーのモチベーション次第」と考えており、メンバーと気持ちよくコミュニケーションを取る事が大事だと考えます。",
+    text4: "「開発効率はチームメンバーのモチベーション次第」と考えており、メンバーと気持ちよくコミュニケーションを取る事を大切にしています。",
     text5: "できるだけ見やすく、理解のしやすいコードを書く事を心がけています。",
     text6: "好きなエディターはVisualStudioCode, Vimです。",
 }

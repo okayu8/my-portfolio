@@ -13,7 +13,7 @@ export default class Skills extends Component {
                     }}>
                         <div className="panel-title">
                             <h2 style={{ opacity: 1 }}>
-                                Skills
+                                <a className="sub-title">Skills</a>
                             </h2>
                         </div>
                     </div>

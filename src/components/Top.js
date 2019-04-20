@@ -12,6 +12,9 @@ export default class Top extends Component {
                 <h1>
                     Yutaro Kataoka's<br />PORTFOLIO
                 </h1>
+                <h2 className="after-title">
+                    Web Engineer
+                </h2>
                 {/* <a><img src={githubImage} /></a> */}
                 <Motion defaultStyle={{ x: -800 }} style={{ x: spring(window.innerWidth / 3, { stiffness: 160, damping: 90 }) }}>
                     {({ x }) =>

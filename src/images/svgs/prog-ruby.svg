@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px"
-	 height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><g id="5151e0c8492e5103c096af88a51e4c6f"><path display="inline" d="M365.281,386.936l108.635,96.416l-213.754-16.794c41.878-25.3,76.426-55.513,102.294-79.567
+	 height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+	 <linearGradient id="g0">
+		<stop offset="0.2" stop-color="#7e7e7e"/>
+		<stop offset="0.8" stop-color="#0E4D92"/>
+	</linearGradient>
+	 <g fill="url(#g0)" id="5151e0c8492e5103c096af88a51e4c6f"><path display="inline" d="M365.281,386.936l108.635,96.416l-213.754-16.794c41.878-25.3,76.426-55.513,102.294-79.567
 		c0.426,0.083,0.879,0.129,1.332,0.129C364.283,387.119,364.782,387.06,365.281,386.936z M485.518,444.55l20.008-262.045
 		c-9.898,25.284-25.557,54.73-45.857,86.172L485.518,444.55z M372.547,380.983l108.384,96.196l-28.936-196.865
 		C428.142,315.82,399.5,352.122,372.547,380.983z M245.951,474.776c-23.345,12.934-47.373,23.235-71.707,30.757l249.786-16.798

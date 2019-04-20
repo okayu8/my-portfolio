@@ -15,6 +15,9 @@ export default class Skills extends Component {
                             <h2 style={{ opacity: 1 }}>
                                 <a className="sub-title">Skills</a>
                             </h2>
+                            <div className="content">
+
+                            </div>
                         </div>
                     </div>
                 }

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px"
-	 height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><g id="3e91140ac1bfb9903b91c1b0ca08d1e5"><path display="inline" d="M341.516,300.601c0.125,3.098,0.092,6.096-0.107,8.994c-0.195,2.903-0.554,5.706-1.064,8.413
+	 height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+	<linearGradient id="g0">
+		<stop offset="0.2" stop-color="#7e7e7e"/>
+		<stop offset="0.8" stop-color="#0E4D92"/>
+	</linearGradient>
+	 <g fill="url(#g0)" id="3e91140ac1bfb9903b91c1b0ca08d1e5"><path display="inline" d="M341.516,300.601c0.125,3.098,0.092,6.096-0.107,8.994c-0.195,2.903-0.554,5.706-1.064,8.413
 		c-0.508,2.707-1.169,5.307-1.979,7.81c-0.808,2.499-1.764,4.903-2.854,7.203c-1.173-0.267-2.361-0.499-3.56-0.712
 		c-1.189-0.207-2.396-0.37-3.609-0.516c-1.206-0.137-2.42-0.241-3.635-0.308c-1.223-0.079-2.44-0.12-3.659-0.12
 		c-10.172,0-18.913,1.027-26.315,2.815c-7.41,1.784-13.481,4.346-18.285,7.419c-4.819,3.085-8.371,6.69-10.717,10.563

@@ -154,6 +154,10 @@ a{
   margin: 20px 10%;
 }
 
+.skill-icon{
+  fill: linear-gradient(180deg, #ff7300, rgb(255, 230, 0));
+}
+
 @keyframes fadein {
   from {
       opacity: 0;

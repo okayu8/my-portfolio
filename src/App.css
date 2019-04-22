@@ -154,8 +154,37 @@ a{
   margin: 20px 10%;
 }
 
+.content-sub-title{
+  margin: 10px 10px;
+  color: #777777;
+  font-size: 28px;
+}
+
+.sub-panel{
+  margin: 20px 0px;
+  padding: 20px;
+  border: 1px solid #FFFFFF;
+  border-radius: 25px;
+}
+
+.box{
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+}
+
 .skill-icon{
-  fill: linear-gradient(180deg, #ff7300, rgb(255, 230, 0));
+  padding: 0px;
+}
+
+.skill-name{
+  font-size: 12px;
+  color: #777777;
+  display: block;
+}
+
+.works-iamge{
+  max-width: 500px;
 }
 
 @keyframes fadein {

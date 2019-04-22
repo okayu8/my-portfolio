@@ -45,38 +45,105 @@ export default class Skills extends Component {
                             <div className="content">
                                 <div className="sub-panel">
                                     <h3 className="content-sub-title">Programming</h3>
-                                    <img className="skill-icon" src={phpicon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={csicon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={aspicon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={reacticon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={jsicon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={pyicon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={goicon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={javaicon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={htmlicon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={cssicon} width="50" height="50"></img>
+                                    <div className="box">
+                                        <img className="skill-icon" src={phpicon} width="50" height="50"></img>
+                                        <span className="skill-name">PHP</span>
+                                    </div>
+                                    <div className="box">
+                                        <img className="skill-icon" src={csicon} width="50" height="50"></img>
+                                        <span className="skill-name">C#</span>
+                                    </div>
+                                    <div className="box">
+                                        <img className="skill-icon" src={aspicon} width="50" height="50"></img>
+                                        <span className="skill-name">ASP.net</span>
+                                        <span className="skill-name">Core</span>
+                                    </div>
+                                    <div className="box">
+                                        <img className="skill-icon" src={reacticon} width="50" height="50"></img>
+                                        <span className="skill-name">React.js</span>
+                                    </div>
+                                    <div className="box">
+                                        <img className="skill-icon" src={jsicon} width="50" height="50"></img>
+                                        <span className="skill-name">JavaScript</span>
+                                    </div>
+                                    <div className="box">
+                                        <img className="skill-icon" src={htmlicon} width="50" height="50"></img>
+                                        <span className="skill-name">HTML5</span>
+                                    </div>
+                                    <div className="box">
+                                        <img className="skill-icon" src={cssicon} width="50" height="50"></img>
+                                        <span className="skill-name">CSS3</span>
+                                    </div>
+                                    <div className="box">
+                                        <img className="skill-icon" src={goicon} width="50" height="50"></img>
+                                        <span className="skill-name">golang</span>
+                                    </div>
+                                    <div className="box">
+                                        <img className="skill-icon" src={pyicon} width="50" height="50"></img>
+                                        <span className="skill-name">Python3</span>
+                                    </div>
                                 </div>
                                 <div className="sub-panel">
                                     <h3 className="content-sub-title">Infrastracture</h3>
-                                    <img className="skill-icon" src={azureicon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={awsicon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={winservericon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={neoicon} width="50" height="50"></img>
+                                    <div className="box">
+                                        <img className="skill-icon" src={azureicon} width="50" height="50"></img>
+                                        <span className="skill-name">Azure</span>
+                                    </div>
+                                    <div className="box">
+                                        <img className="skill-icon" src={awsicon} width="50" height="50"></img>
+                                        <span className="skill-name">AWS</span>
+                                    </div>
+                                    <div className="box">
+                                        <img className="skill-icon" src={winservericon} width="50" height="50"></img>
+                                        <span className="skill-name">Windows</span>
+                                        <span className="skill-name">Server</span>
+                                    </div>
+                                    <div className="box">
+                                        <img className="skill-icon" src={neoicon} width="50" height="50"></img>
+                                        <span className="skill-name">NEO</span>
+                                    </div>
                                 </div>
                                 <div className="sub-panel">
                                     <h3 className="content-sub-title">Tools</h3>
-                                    <img className="skill-icon" src={giticon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={dockericon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={slackicon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={trelloicon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={webhookicon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={discordicon} width="50" height="50"></img>
+                                    <div className="box">
+                                        <img className="skill-icon" src={giticon} width="50" height="50"></img>
+                                        <span className="skill-name">Git</span>
+                                    </div>
+                                    <div className="box">
+                                        <img className="skill-icon" src={dockericon} width="50" height="50"></img>
+                                        <span className="skill-name">Docker</span>
+                                    </div>
+                                    <div className="box">
+                                        <img className="skill-icon" src={slackicon} width="50" height="50"></img>
+                                        <span className="skill-name">Slack</span>
+                                    </div>
+                                    <div className="box">
+                                        <img className="skill-icon" src={trelloicon} width="50" height="50"></img>
+                                        <span className="skill-name">Trello</span>
+                                    </div>
+                                    <div className="box">
+                                        <img className="skill-icon" src={webhookicon} width="50" height="50"></img>
+                                        <span className="skill-name">webhook</span>
+                                    </div>
+                                    <div className="box">
+                                        <img className="skill-icon" src={discordicon} width="50" height="50"></img>
+                                        <span className="skill-name">Discord</span>
+                                    </div>
                                 </div>
                                 <div className="sub-panel">
                                     <h3 className="content-sub-title">OS</h3>
-                                    <img className="skill-icon" src={macicon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={winicon} width="50" height="50"></img>
-                                    <img className="skill-icon" src={linuxicon} width="50" height="50"></img>
+                                    <div className="box">
+                                        <img className="skill-icon" src={macicon} width="50" height="50"></img>
+                                        <span className="skill-name">Mac</span>
+                                    </div>
+                                    <div className="box">
+                                        <img className="skill-icon" src={winicon} width="50" height="50"></img>
+                                        <span className="skill-name">Windows</span>
+                                    </div>
+                                    <div className="box">
+                                        <img className="skill-icon" src={linuxicon} width="50" height="50"></img>
+                                        <span className="skill-name">Linux</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>

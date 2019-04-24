@@ -16,13 +16,11 @@ export default class Works extends Component {
                             <h2 style={{ opacity: 1 }}>
                                 <a className="sub-title">Works</a>
                             </h2>
-                            <div className="box">
-                                <a href="/my-portfolio/" target="blank">
+                            <div className="box" style={{ maxWidth: 800 }}>
+                                <a href="/my-portfolio/" target="_blank">
                                     <p style={{ fontWeight: "bold" }}>Yutaro Kataoka's PORTFOLIO</p>
                                     <img className="works-iamge" src={my_portfolio}></img>
                                 </a>
-
-
                             </div>
                         </div>
                     </div>

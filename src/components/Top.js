@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Motion, spring } from 'react-motion';
-import githubImage from '../images/icons8-github-32.png'
+import githubImage from '../images/svgs/icons8-github.svg'
 
 export default class Top extends Component {
     handleToGithub() {

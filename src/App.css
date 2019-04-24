@@ -70,6 +70,10 @@ a{
   .nav-bar{
     display: none;
   } 
+
+  .sub-content{
+  text-align: center;
+}
 }
 
 @media screen and (min-width:780px){

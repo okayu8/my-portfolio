@@ -2,13 +2,6 @@ import React, { Component } from 'react';
 import { Motion, spring } from 'react-motion';
 
 export default class Abouts extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            lang: "jp",
-        };
-    };
-
     render() {
         return (
             <Motion defaultStyle={{ x: -1000 }} style={{ x: spring(0, { stiffness: 80, damping: 17 }) }}>

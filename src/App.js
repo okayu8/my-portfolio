@@ -105,7 +105,7 @@ export default class App extends Component {
                     <Route exact path='/my-portfolio' component={Top} />
                     <Route path='/my-portfolio/abouts' render={() => <Abouts lang={this.state.lang} />} />
                     <Route path='/my-portfolio/skills' component={Skills} />
-                    <Route path='/my-portfolio/works' component={Works} />
+                    <Route path='/my-portfolio/works' render={() => <Works lang={this.state.lang} />} />
 
                 </BrowserRouter>
 

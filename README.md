@@ -20,10 +20,9 @@ URL: https://okayu8.github.io/my-portfolio/
 
 
 ### デプロイ手順
-- 変更内容をプッシュする  
+- 変更内容をコミットする  
 `git add -A`  
-`git commit -m '...'`  
-`git push`  
+`git commit -m '...'`   
 
 - ビルド&デプロイ  
 `npm run deploy`

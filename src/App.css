@@ -191,6 +191,12 @@ a{
   width: 80%;
 }
 
+.work-box{
+  display: inline-block;
+  padding: 40px 0px;
+  text-align: center;
+}
+
 @keyframes fadein {
   from {
       opacity: 0;

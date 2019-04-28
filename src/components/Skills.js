@@ -75,14 +75,14 @@ export default class Skills extends Component {
                                             <img className="skill-icon" src={cssicon} width="50" height="50"></img>
                                             <span className="skill-name">CSS3</span>
                                         </div>
-                                        <div className="box">
+                                        {/* <div className="box">
                                             <img className="skill-icon" src={goicon} width="50" height="50"></img>
                                             <span className="skill-name">golang</span>
                                         </div>
                                         <div className="box">
                                             <img className="skill-icon" src={pyicon} width="50" height="50"></img>
                                             <span className="skill-name">Python3</span>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                                 <div className="sub-panel">
@@ -129,10 +129,6 @@ export default class Skills extends Component {
                                         <div className="box">
                                             <img className="skill-icon" src={webhookicon} width="50" height="50"></img>
                                             <span className="skill-name">webhook</span>
-                                        </div>
-                                        <div className="box">
-                                            <img className="skill-icon" src={discordicon} width="50" height="50"></img>
-                                            <span className="skill-name">Discord</span>
                                         </div>
                                     </div>
                                 </div>

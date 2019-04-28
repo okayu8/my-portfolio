@@ -43,7 +43,6 @@ export default class Abouts extends Component {
                                     href="https://github.com/okayu8">GitHub</a>
                             </div>
                         </div>
-
                     </div>
                 }
             </Motion>

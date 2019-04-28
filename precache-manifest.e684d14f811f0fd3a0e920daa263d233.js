@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "24b6d4cbdb455247f0d03a3f88ad8f39",
-    "url": "/my-portfolio/static/media/icons8-azure.24b6d4cb.svg"
+    "revision": "7bed95c0f044a3ba4a1281fb2a8efcb3",
+    "url": "/my-portfolio/static/media/icons8-neo-cryptocurrency-filled.7bed95c0.svg"
   },
   {
-    "revision": "cbe5aeb783e6e8eb4ad4",
+    "revision": "e394b387ffa1c2474d29",
     "url": "/my-portfolio/static/css/main.3f4c8cbd.chunk.css"
   },
   {
@@ -12,12 +12,12 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/js/runtime~main.674e5ed7.js"
   },
   {
-    "revision": "832cdbad31cda4698220427e47e2726e",
-    "url": "/my-portfolio/static/media/icons8-java.832cdbad.svg"
+    "revision": "8471acafe17de63f3a1222fea45c32cc",
+    "url": "/my-portfolio/static/media/icons8-discord.8471acaf.svg"
   },
   {
-    "revision": "2164ae90d23e9a662140",
-    "url": "/my-portfolio/static/js/2.f2210f16.chunk.js"
+    "revision": "c588986d6b35998dd3c6",
+    "url": "/my-portfolio/static/js/2.a5c628b5.chunk.js"
   },
   {
     "revision": "7b4f342847211296acd2eb313d30cd33",
@@ -48,14 +48,6 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/icons8-javascript-filled.20ebd1c7.svg"
   },
   {
-    "revision": "a29e71821c5768454c7d0cc921bce8d7",
-    "url": "/my-portfolio/static/media/icons8-python-filled.a29e7182.svg"
-  },
-  {
-    "revision": "574b22fa556e5e06bf56a4142e0d5ede",
-    "url": "/my-portfolio/static/media/icons8-golang-filled.574b22fa.svg"
-  },
-  {
     "revision": "3f0daac17bbc6c2e0bed14d15a896ead",
     "url": "/my-portfolio/static/media/html5-01.3f0daac1.svg"
   },
@@ -64,16 +56,16 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/css3-01.7199fb67.svg"
   },
   {
-    "revision": "cbe5aeb783e6e8eb4ad4",
-    "url": "/my-portfolio/static/js/main.c599ea0d.chunk.js"
+    "revision": "24b6d4cbdb455247f0d03a3f88ad8f39",
+    "url": "/my-portfolio/static/media/icons8-azure.24b6d4cb.svg"
   },
   {
     "revision": "2ad2da63a064e64cd564dff15c939572",
     "url": "/my-portfolio/static/media/icons8-amazon-web-services.2ad2da63.svg"
   },
   {
-    "revision": "7bed95c0f044a3ba4a1281fb2a8efcb3",
-    "url": "/my-portfolio/static/media/icons8-neo-cryptocurrency-filled.7bed95c0.svg"
+    "revision": "e394b387ffa1c2474d29",
+    "url": "/my-portfolio/static/js/main.408df069.chunk.js"
   },
   {
     "revision": "bd7a2c02c4fb1a2672579a9b54229016",
@@ -94,10 +86,6 @@ self.__precacheManifest = [
   {
     "revision": "b97c205ac7615da2c443f0919e141fd2",
     "url": "/my-portfolio/static/media/icons8-webhook-filled.b97c205a.svg"
-  },
-  {
-    "revision": "8471acafe17de63f3a1222fea45c32cc",
-    "url": "/my-portfolio/static/media/icons8-discord.8471acaf.svg"
   },
   {
     "revision": "32d553b389ff9602bdf73f3602505fcd",
@@ -124,11 +112,23 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/DSC01303.91e4d5c1.jpg"
   },
   {
-    "revision": "2164ae90d23e9a662140",
+    "revision": "a29e71821c5768454c7d0cc921bce8d7",
+    "url": "/my-portfolio/static/media/icons8-python-filled.a29e7182.svg"
+  },
+  {
+    "revision": "574b22fa556e5e06bf56a4142e0d5ede",
+    "url": "/my-portfolio/static/media/icons8-golang-filled.574b22fa.svg"
+  },
+  {
+    "revision": "832cdbad31cda4698220427e47e2726e",
+    "url": "/my-portfolio/static/media/icons8-java.832cdbad.svg"
+  },
+  {
+    "revision": "c588986d6b35998dd3c6",
     "url": "/my-portfolio/static/css/2.6994900b.chunk.css"
   },
   {
-    "revision": "707845419c6f0c77988c42fc833bdf9e",
+    "revision": "af351b9bde8f46eae6b5d8b1313415a9",
     "url": "/my-portfolio/index.html"
   }
 ];

@@ -35,7 +35,15 @@ export default class Abouts extends Component {
                             <p>
                                 {this.props.lang === "jp" ? jp.text6 : en.text6}
                             </p>
+                            <div className="sub-panel">
+                                <h3 className="content-sub-title">Contact</h3>
+                                <p style={{ marginBottom: 12 }}>Mail : hitugaya12@gmail.com</p>
+                                <a style={{ color: "rgb(255, 115, 0)", fontSize: 20, }}
+                                    target="_blank"
+                                    href="https://github.com/okayu8">GitHub</a>
+                            </div>
                         </div>
+
                     </div>
                 }
             </Motion>

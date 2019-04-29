@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/icons8-neo-cryptocurrency-filled.7bed95c0.svg"
   },
   {
-    "revision": "e394b387ffa1c2474d29",
+    "revision": "5384a6796b2ec3b250b0",
     "url": "/my-portfolio/static/css/main.3f4c8cbd.chunk.css"
   },
   {
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/icons8-amazon-web-services.2ad2da63.svg"
   },
   {
-    "revision": "e394b387ffa1c2474d29",
-    "url": "/my-portfolio/static/js/main.408df069.chunk.js"
+    "revision": "5384a6796b2ec3b250b0",
+    "url": "/my-portfolio/static/js/main.c797cad5.chunk.js"
   },
   {
     "revision": "bd7a2c02c4fb1a2672579a9b54229016",
@@ -128,7 +128,7 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/css/2.6994900b.chunk.css"
   },
   {
-    "revision": "af351b9bde8f46eae6b5d8b1313415a9",
+    "revision": "a9d7d5e26378bdcd27da4da57fb8ede8",
     "url": "/my-portfolio/index.html"
   }
 ];

@@ -32,7 +32,7 @@ export default class Works extends Component {
                                             href="https://github.com/okayu8/my-portfolio">GitHub</a></p>
                                 </div>
                                 <div className="work-box" style={{ maxWidth: 800 }}>
-                                    <a href="https://sapporo-ramen.herokuapp.com/" target="_blank">
+                                    <a href="https://laravel-react-example.herokuapp.com/" target="_blank">
                                         <p style={{ fontWeight: "bold" }}>Quick Todo</p>
                                         <img className="works-iamge" src={todo}></img>
                                     </a>

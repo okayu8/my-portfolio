@@ -5,10 +5,10 @@ import phpicon from '../images/svgs/icons8-php-logo-filled.svg';
 import csicon from '../images/svgs/icons8-c-sharp-logo-filled.svg';
 import aspicon from '../images/svgs/prog-aspnet.svg';
 import reacticon from '../images/svgs/icons8-react-native.svg';
-import jsicon from '../images/svgs/icons8-javascript-filled.svg';
-import pyicon from '../images/svgs/icons8-python-filled.svg';
-import goicon from '../images/svgs/icons8-golang-filled.svg';
-import javaicon from '../images/svgs/icons8-java.svg';
+// import jsicon from '../images/svgs/icons8-javascript-filled.svg';
+// import pyicon from '../images/svgs/icons8-python-filled.svg';
+// import goicon from '../images/svgs/icons8-golang-filled.svg';
+// import javaicon from '../images/svgs/icons8-java.svg';
 import htmlicon from '../images/svgs/html5-01.svg';
 import cssicon from '../images/svgs/css3-01.svg';
 //infrastracture
@@ -22,7 +22,6 @@ import dockericon from '../images/svgs/icons8-docker-filled.svg';
 import slackicon from '../images/svgs/icons8-slack-new.svg';
 import trelloicon from '../images/svgs/icons8-trello-filled.svg';
 import webhookicon from '../images/svgs/icons8-webhook-filled.svg';
-import discordicon from '../images/svgs/icons8-discord.svg';
 //os
 import macicon from '../images/svgs/os-apple-dark.svg';
 import winicon from '../images/svgs/icons8-windows8-filled.svg';
@@ -75,14 +74,14 @@ export default class Skills extends Component {
                                             <img className="skill-icon" src={cssicon} width="50" height="50"></img>
                                             <span className="skill-name">CSS3</span>
                                         </div>
-                                        <div className="box">
+                                        {/* <div className="box">
                                             <img className="skill-icon" src={goicon} width="50" height="50"></img>
                                             <span className="skill-name">golang</span>
                                         </div>
                                         <div className="box">
                                             <img className="skill-icon" src={pyicon} width="50" height="50"></img>
                                             <span className="skill-name">Python3</span>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                                 <div className="sub-panel">
@@ -129,10 +128,6 @@ export default class Skills extends Component {
                                         <div className="box">
                                             <img className="skill-icon" src={webhookicon} width="50" height="50"></img>
                                             <span className="skill-name">webhook</span>
-                                        </div>
-                                        <div className="box">
-                                            <img className="skill-icon" src={discordicon} width="50" height="50"></img>
-                                            <span className="skill-name">Discord</span>
                                         </div>
                                     </div>
                                 </div>
